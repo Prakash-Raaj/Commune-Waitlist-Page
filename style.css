@@ -136,6 +136,7 @@ body {
 
 .badge a {
   text-decoration: underline;
+  color: #ccc1e6;
 }
 
 .heading {
@@ -180,6 +181,9 @@ body {
     padding: 1.5rem 0rem;
     margin-left: 2rem;
   }
+  .badge {
+    width: 70%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -187,11 +191,16 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+    text-align: left;
   }
   .main-image {
     display: initial;
     width: 350px;
     height: 420px;
+  }
+  .badge {
+    font-size: 0.8rem;
+    width: 65%;
   }
 }
 
