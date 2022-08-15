@@ -204,4 +204,5 @@ footer .info {
   width: 45px;
   height: 45px;
   padding: 0 0.2rem;
+  cursor: pointer;
 }
